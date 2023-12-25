@@ -3,6 +3,8 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Ejercicios Evaluables" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Practica Ejercicios de Programación - Libro Pérez Montes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T2 - Variables" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
