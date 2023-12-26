@@ -9,7 +9,7 @@ public class For_E16 {
         System.out.println("Introduce un número entre 0 y 20");
 
         int n=teclado.nextInt();
-        long factorial=n;
+        long factorial=1;
         if(n<=20 && n>=0) {
             for(int i=1; i<n; i++) {
 
