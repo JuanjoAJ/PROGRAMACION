@@ -108,6 +108,7 @@ public class CuadradoMagico {
             diagonal += cuadradoMagico[i][i];
             System.out.println(reverso);
         }
+        imprimir(cuadradoMagico);
         System.out.println("Diagonal " + diagonal +" " + sumAuxiliar);
         if (diagonal != sumAuxiliar) {
             return diagonal = 0;
