@@ -13,7 +13,7 @@ public class bol06e31 {
     }
     public static int factorial(int num){
         int res;
-        if(num==0) res=1;
+        if(num<=0) res=1;
         else res=num*factorial(num-1); //usamos el método de forma recursiva
 
         return res;
