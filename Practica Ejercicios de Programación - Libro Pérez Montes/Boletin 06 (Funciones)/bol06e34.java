@@ -10,10 +10,19 @@ public class bol06e34 {
         int num, fibUno, fibDos;
 
         System.out.println("Introduce el primer valor de fibonacci");
-
+        fibUno= scanner.nextInt();
         System.out.println("Introduce el segundo valor de fibonacci");
+        fibDos= scanner.nextInt();
         System.out.println("Introduce número");
+        num= scanner.nextInt();
+        System.out.println("fibonacci(" + num + ") = " +fibo(num,fibUno,fibDos));
+    }
 
-
+    public static int fibo(int num, int fibUno, int fibDos){
+        int resultado;
+        if (num==0) resultado=fibUno;
+        else if (num==1) resultado=fibDos;
+        else resultado=fibo(num-1, fibUno, fibDos)+fibo(num-2, fibUno, fibDos);
+        return  resultado;
     }
 }
