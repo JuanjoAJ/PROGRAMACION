@@ -6,7 +6,7 @@ public class ComprobarDNI {
         Scanner scanner=new Scanner(System.in);
         String teclado;
         do {
-            System.out.println("Introduce un número de DNI [recuerda que para que sea valido debe tener 7 números]");
+            System.out.println("Introduce un número de DNI [recuerda que para que sea valido debe tener 8 números]");
             teclado= scanner.next();
         }while (teclado.length()!=8);
         int dni=Integer.parseInt(teclado);

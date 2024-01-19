@@ -19,9 +19,7 @@ public class ArraysMult_01 {
         for (int i=0; i<num.length;i++) {
             suma+=num[i];
         }
-        for (int imp:num) {
-            System.out.print(imp + " ");
-        }
+        System.out.println("La suma de todos los elementos es de " + suma);
         System.out.println("La media de todos los elementos es de " + suma/num.length);
     }
 }
