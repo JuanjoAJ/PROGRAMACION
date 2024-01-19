@@ -8,9 +8,8 @@ import java.util.Scanner;
  */
 public class ArrayMetodo02 {
     public static void main(String[] args) {
-        for (int imp:orden(arrays())) {
-            System.out.print(imp +" ");
-        }
+        int[]arrays=orden(arrays());
+        System.out.printf("El elemento mayor del arreglo es %d, mientras que el menor es %d", arrays[arrays.length-1],arrays[0]);
 
     }
     public static int[] arrays(){
