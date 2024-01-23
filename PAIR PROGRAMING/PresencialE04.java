@@ -13,7 +13,6 @@ public class PresencialE04 {
         else System.out.println("Opción no contemplada");
     }
     public static String jugada(int jugador){
-        Scanner sc=new Scanner(System.in);
         String jugada= JOptionPane.showInputDialog("Buenas jugador " + jugador + ". Introduce tu jugada").toLowerCase();
         return jugada;
     }
@@ -32,7 +31,5 @@ public class PresencialE04 {
                else System.out.println("Gana jugador uno");
            }
         }
-
-
     }
 }

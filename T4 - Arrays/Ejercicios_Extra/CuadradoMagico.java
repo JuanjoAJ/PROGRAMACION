@@ -62,6 +62,7 @@ public class CuadradoMagico {
 
     }
 
+
     public static int sumaFila(int[][] cuadradoMagico) {
         sumAuxiliar = 0;
         for (int i = 0; i < cuadradoMagico.length; i++) {
@@ -104,8 +105,8 @@ public class CuadradoMagico {
         int reverso = cuadradoMagico.length;
         for (int i = 0; i < cuadradoMagico.length; i++) {
             reverso--;
-            sumAuxiliar += cuadradoMagico[reverso][i];
-            diagonal += cuadradoMagico[i][i];
+            sumAuxiliar += cuadradoMagico[reverso][i]; //20 11 02
+            diagonal += cuadradoMagico[i][i]; //00 11 22
             System.out.println(reverso);
         }
         imprimir(cuadradoMagico);

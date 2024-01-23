@@ -45,6 +45,5 @@ public class PresencialE02Calendar {
                 System.out.println("Hora no correcta.");
                 break;
         }
-
     }
 }
