@@ -17,6 +17,9 @@
       <sourceFolder url="file://$MODULE_DIR$/T5 - Programación modular" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PAIR PROGRAMING" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PAIR PROGRAMMING" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T6 - POO" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Ejercicios Base" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Ejercicios Clase" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

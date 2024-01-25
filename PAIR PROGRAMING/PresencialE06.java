@@ -20,4 +20,5 @@ public class PresencialE06 {
         else media=0;
         System.out.printf("La media de los números positivos introducidos es de %.2f", media);
     }
+   
 }
