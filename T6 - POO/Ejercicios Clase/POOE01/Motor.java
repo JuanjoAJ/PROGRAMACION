@@ -14,6 +14,14 @@ public class Motor {
     public Motor(int CV){
         this.CV=CV;
     }
+
+    //Metodos
+
+    public int incrementoAceite(){
+        return this.litrosAceite+=10;
+    }
+
+
     //Getter & Setter
     public int getCV() {
         return this.CV;
@@ -24,5 +32,7 @@ public class Motor {
     public void setAceite(int litrosAceite){
         this.litrosAceite=litrosAceite;
     }
+
+
 
 }

@@ -9,13 +9,17 @@ package POOE01;
 public class Garaje {
     private Coche coche;
     private String averiaAsociada;
-    private int nCoches; //¿Array?
+    private int nCoches;
 
     //constructor
     public Garaje(){
 
     }
 
+   public Garaje(Coche coche){
+       this.coche=coche;
+
+    }
 
     //método
 
@@ -23,9 +27,29 @@ public class Garaje {
         if (this.nCoches!=0) return false;
         else {
             this.nCoches=1;
-            //todo
+            if(averiaAsociada.equalsIgnoreCase("aceite")) coche.getMotor().incrementoAceite();
+            coche.incrementoPrecioAcumulado();
+            this.averiaAsociada=averiaAsociada;
+            return true;
         }
+    }
+    public int devolverCoche(){
+        this.nCoches=0;
+        return nCoches;
+    }
 
+    public void mostrarDatosGaraje(Coche coche){
+        coche.mostrarDatosCoche();
+        System.out.println(coche.getPrecioAcumulado() + "€ <- Precio total para la reparación");
+    }
 
+    //Getter & Setter
+
+    public String getAveriaAsociada() {
+        return averiaAsociada;
+    }
+
+    public void setAveriaAsociada(String averiaAsociada) {
+        this.averiaAsociada = averiaAsociada;
     }
 }

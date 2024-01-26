@@ -13,12 +13,6 @@ public class Entrada {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Introduzca nombre, apellido, dni, edad, altura y peso de una persona");
-       /* String nombre= scanner.next();
-        String apellido=scanner.next();
-        String dni=scanner.next();
-        int edad= scanner.nextInt();
-        int altura= scanner.nextInt();
-        double peso= scanner.nextDouble();*/
         Persona[] personas=new Persona[3];
         personas[0]=new Persona(scanner.next(), scanner.next(), scanner.next(), scanner.nextInt(), scanner.nextInt(), scanner.nextInt());
         personas[1]=new Persona("Juanjo", "Avila");
