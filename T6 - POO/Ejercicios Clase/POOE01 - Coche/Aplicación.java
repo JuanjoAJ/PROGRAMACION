@@ -1,7 +1,7 @@
-package POOE01;
+
 
 import java.util.Scanner;
-
+import model.*;
 /*Desarrollar una clase llamada Aplicacion que en su método main:
 
 - Cree un garaje.

@@ -17,6 +17,10 @@
       <sourceFolder url="file://$MODULE_DIR$/T5 - Programación modular" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PAIR PROGRAMING" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PAIR PROGRAMMING" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Ejercicios Base/EjerciciosBaseCampus" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Ejercicios Clase" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Ejercicios Clase/POOE01 - Coche" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Ejercicios Clase/POOE02 - Trigonometría" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

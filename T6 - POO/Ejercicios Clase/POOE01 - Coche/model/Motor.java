@@ -1,4 +1,4 @@
-package POOE01;
+package model;
 /*Desarrollar una clase llamada Motor que:
 
 - Tenga dos atributos private de tipo int (litros de aceite) y de tipo int (CV).

@@ -1,4 +1,4 @@
-package POOE01;
+package model;
 /*Desarrollar una clase llamada Coche que:
 
 - Tenga un atributo private de tipo Motor, un atributo de tipo String (marca), otro de tipo String (modelo) y otro de tipo double con el precio acumulado con las averías.

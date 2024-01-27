@@ -1,4 +1,4 @@
-package POOE01;
+package model;
 /*Desarrollar una clase llamada Garaje que:
 
 - Tendrá tres atributos, un coche, un String con la avería asociada y el número de coches que ha ido atendiendo.
