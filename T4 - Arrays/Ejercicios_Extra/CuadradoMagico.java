@@ -62,6 +62,7 @@ public class CuadradoMagico {
 
     }
 
+
     public static int sumaFila(int[][] cuadradoMagico) {
         sumAuxiliar = 0;
         for (int i = 0; i < cuadradoMagico.length; i++) {

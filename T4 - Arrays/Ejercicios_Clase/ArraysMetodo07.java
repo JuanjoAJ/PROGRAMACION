@@ -18,34 +18,41 @@ public class ArraysMetodo07 {
         for (char imp:guiones(palabraAle)) {
             System.out.print(imp);
         }
+        System.out.println();
+        juego(palabraAle, guiones(palabraAle));
 
     }
 
 
+    //Array que contiene las palabras del juego
     public static String palabras(){
         String[] palabras={"mesa", "pizza", "albañil","caballo", "manzana", "euro", "nivel", "programacion", "guitarra",
                 "libro", "silla", "mesa", "lampara", "murcielago", "esternocleidomastoideo", "lobezno", "psicotecnico",
                 "caramelo", "nomina", "taburete", "rondador", "persiana", "pijama", "television"};
         return palabras[(int) (Math.random()* palabras.length)];
     }
+    //Función que transforma la palabra en guiones
     public static char[] guiones(String palabra){
         char[] guion=new char[palabra.length()];
         for (int i = 0; i < guion.length; i++) guion[i]='_';
        return guion;
     }
-    public static void juego(String palabra, char guiones) {
+
+    //
+    public static void juego(String palabra, char[] guiones) {
         Scanner scanner = new Scanner(System.in);
         int vida = 10;
-        char[] guion = guiones(palabra);
         char letraJugador = scanner.next().toLowerCase().charAt(0);
         for (int i = 0; i < palabra.length(); i++) {
             if (letraJugador == palabra.charAt(i)) {
-                guion[i] = letraJugador;
-
+                guiones[i] = letraJugador;
             }
         }
+        for(char imp:guiones) System.out.print(imp);
 
-        //juego terminado si terminan las 10 vidas o si consigues dominar la palabra
+
+        //juego terminado si terminan las 10 vidas o si consigues dominar la palabra ¿Un método que te evalue eso o dentro del void juego?
+        // un método que te evalue si sigue teniendo guiones dentro de un do? boolean guiones
         /*if(palabnaAle.equalIgnore)*/
 
 

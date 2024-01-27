@@ -5,15 +5,13 @@ palo horizontal de la L tendrá una longitud de la mitad (división entera entre
 public class PresencialE05 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Introduce la altura de la L");
+        System.out.println("Introduce la longitud de la L");
         int h= sc.nextInt();
-
         for (int i=0; i<h; i++){
             System.out.println("*");
         }
-        for (int i = 0; i < h/2+1; i++) {
-            System.out.print("*  ");
+        for (int i=0; i<(h/2)+1; i++){
+            System.out.print("* ");
         }
-
     }
 }

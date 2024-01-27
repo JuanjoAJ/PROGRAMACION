@@ -10,7 +10,7 @@ public class ArrayMetodo01 {
     public static void main(String[] args) {
         Scanner teclado=new Scanner(System.in);
         int[] array=tabla(teclado);
-        consola(suma(array), multiplicacion(array));
+        consola(multiplicacion(array));
 
     }
     private static int[] tabla(Scanner teclado){
@@ -34,12 +34,10 @@ public class ArrayMetodo01 {
 
         return suma;
     }
-    private static void consola(int suma, int[] array){
+    private static void consola(int[] array){
         System.out.println("La suma de todos los números es de " + suma(array));
         System.out.println("La media de todos los elementos es de " + suma(array)/ array.length);
     }
-
-
 }
 
 
