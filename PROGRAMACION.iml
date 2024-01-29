@@ -20,6 +20,7 @@
       <sourceFolder url="file://$MODULE_DIR$/T6 - POO" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Ejercicios Base" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Ejercicios Clase" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Clase EntornosDesarrollo" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
