@@ -21,6 +21,11 @@ public class Vivienda {
         this.numeroHabitaciones = numeroHabitaciones;
     }
 
+    public Vivienda(int metrosCuadrados, int numeroHabitaciones) {
+        this.metrosCuadrados=metrosCuadrados;
+        this.numeroHabitaciones=numeroHabitaciones;
+    }
+
     //Setter & Getter
 
     public String getOrientacion() {

@@ -1,7 +1,6 @@
 package model;
 
-public class Piso {
-    private Vivienda vivienda;
+public class Piso extends Vivienda {
     private String direccion;
     private int planta;
     private char puerta;
@@ -9,23 +8,14 @@ public class Piso {
 
     //constructores
     public Piso(){}
-    public Piso(Vivienda vivienda,String direccion, int planta, char puerta){
-        this.vivienda=vivienda;
+    public Piso(Vivienda vivienda,String direccion, int metrosCuadrados, int numeroHabitaciones, int planta, char puerta){
+        super(metrosCuadrados, numeroHabitaciones);
         this.direccion=direccion;
         this.planta=planta;
         this.puerta=puerta;
     }
 
     //Getter & Setter
-
-    public Vivienda getVivienda() {
-        return vivienda;
-    }
-
-    public void setVivienda(Vivienda vivienda) {
-        this.vivienda = vivienda;
-    }
-
     public String getDireccion() {
         return direccion;
     }
