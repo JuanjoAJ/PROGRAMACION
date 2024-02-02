@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/T4 - Arrays/ArrayList_Clase/ArrayList_Clase.iml" filepath="$PROJECT_DIR$/T4 - Arrays/ArrayList_Clase/ArrayList_Clase.iml" />
       <module fileurl="file://$PROJECT_DIR$/PROGRAMACION.iml" filepath="$PROJECT_DIR$/PROGRAMACION.iml" />
       <module fileurl="file://$PROJECT_DIR$/T3 - Bucles y condicionales/T3 - Bucles y condicionales.iml" filepath="$PROJECT_DIR$/T3 - Bucles y condicionales/T3 - Bucles y condicionales.iml" />
       <module fileurl="file://$PROJECT_DIR$/T4 - Arrays/T4 - Arrays.iml" filepath="$PROJECT_DIR$/T4 - Arrays/T4 - Arrays.iml" />
