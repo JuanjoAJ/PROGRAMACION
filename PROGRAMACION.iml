@@ -22,6 +22,10 @@
       <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Ejercicios Clase" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Clase EntornosDesarrollo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Ejercicios Clase/POOE04 - Cajero Base" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Ejercicios Clase/POOE05 - Carrera" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Ejercicios Clase/POOE06 - CarreraCompleta" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Ejercicios Clase/POOE07 - Equipo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T6 - POO/Ejercicios Clase/POOE08 - Consumición" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
