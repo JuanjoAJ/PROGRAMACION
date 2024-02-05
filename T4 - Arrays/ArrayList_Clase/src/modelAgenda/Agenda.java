@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Agenda {
-    ArrayList<Usuario> listUser=new ArrayList<>();
+   private ArrayList<Usuario> listUser=new ArrayList<>();
     Scanner scanner=new Scanner(System.in);
     public Agenda(){}
 
