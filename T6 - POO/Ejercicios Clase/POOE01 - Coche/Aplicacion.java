@@ -1,7 +1,7 @@
 
 
 import java.util.Scanner;
-import model.*;
+import modelCoche.*;
 /*Desarrollar una clase llamada Aplicacion que en su método main:
 
 - Cree un garaje.
@@ -10,7 +10,7 @@ import model.*;
 - Si la avería del coche es “aceite” incrementar en 10 los litros de aceite.
 - Los coches entrarán al menos 2 veces en el garaje.
 - Mostrar la información de los coches al final del main.*/
-public class Aplicación {
+public class Aplicacion {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

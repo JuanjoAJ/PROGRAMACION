@@ -7,7 +7,7 @@ public class bol05e02 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         int[][] array=new int[4][4];
-        boolean simétrico=true;
+        boolean simetrico=true;
 
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
@@ -20,15 +20,15 @@ public class bol05e02 {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 if(array[i][j]!=array[j][i]){
-                    simétrico=false;
+                    simetrico=false;
                     break;
                 }
 
             }
-            if (!simétrico) break;
+            if (!simetrico) break;
         }
 
-        if (!simétrico) System.out.println("No es simétrico");
+        if (!simetrico) System.out.println("No es simétrico");
         else System.out.println("Es simétrico");
 
     }

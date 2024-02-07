@@ -23,4 +23,22 @@ public class Jugador {
         if (estrella) System.out.println("Y es la estrella del equipo ⚽");
     }
 
+    //Setter & getter
+
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getPosicion() {
+        return posicion;
+    }
+
+    public boolean isEstrella() {
+        return estrella;
+    }
+
+    public int getCalidad() {
+        return calidad;
+    }
 }
