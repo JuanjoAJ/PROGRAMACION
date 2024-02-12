@@ -18,6 +18,14 @@ public class EntradaEquipo {
         partido.iniciarPartido();
         partido.mostrarResultado();
 
+        //muchos equipos // competición //liga
+
+        // asignación de partidos. SORTEO DE LIGA. IDA y VUELTA.
+
+        //Lógica de sorteo Y formato similar competición coches carrera
+
+        // ¿Y si más adelante un equipo tiene jugadoreste ?
+
 
 
     }
