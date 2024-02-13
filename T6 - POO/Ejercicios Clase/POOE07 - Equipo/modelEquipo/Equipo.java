@@ -34,7 +34,7 @@ public class Equipo {
     //metodos
 
     public boolean atacar(){
-        if( ((int) (nivelAtaque * Math.random() * 2) + (nivelCentro * (int) Math.random() * 2 / 2)) > 90) {
+        if( ((int) (nivelAtaque * Math.random() * 2) + (nivelCentro * (int) (Math.random() * 2) / 2)) > 90) {
            // goles++;
             return true;
         }
@@ -79,4 +79,5 @@ public class Equipo {
     public void setGoles(int goles){
         this.goles=goles;
     }
+
 }

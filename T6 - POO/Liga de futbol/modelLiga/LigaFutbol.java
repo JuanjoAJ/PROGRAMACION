@@ -19,4 +19,14 @@ public class LigaFutbol {
         this.equiposPrimera = equiposPrimera;
         this.partidosLiga = partidosLiga;
     }
+
+
+    public void sorteoEquipos(){
+
+
+
+    }
+    //DEspues del partido si gana
+
+
 }
