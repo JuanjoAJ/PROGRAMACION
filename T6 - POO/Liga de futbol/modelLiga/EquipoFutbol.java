@@ -6,24 +6,24 @@ import java.util.Comparator;
 import java.util.Scanner;
 
 public class EquipoFutbol {
-    Scanner s=new Scanner(System.in);
+    Scanner s = new Scanner(System.in);
     private String nombre;
     private int nivelAtaque, nivelCentro, nivelDefensa, goles, puntos;
-    private ArrayList<Jugador> banquillo;
-    private Jugador [] onceInicial;
+    private ArrayList<JugadorFutbol> banquillo;
+    private JugadorFutbol[] onceInicial;
 
     //constructor
 
     public EquipoFutbol() {
 
-        onceInicial=new Jugador[11];
+        onceInicial = new JugadorFutbol[11];
         banquillo = new ArrayList<>();
     }
 
     public EquipoFutbol(String nombre) {
         this.nombre = nombre;
         goles = 0;
-        onceInicial=new Jugador[11];
+        onceInicial = new JugadorFutbol[11];
         banquillo = new ArrayList<>();
     }
 
@@ -37,48 +37,51 @@ public class EquipoFutbol {
 
     //metodos
 
-    public void agregarJugadores(){
+    public void agregarJugadores() {
         for (int i = 0; i < onceInicial.length; i++) {
             System.out.println("Añade jugador: ");
-            onceInicial[i]=new Jugador(s.next(), s.next(), s.nextInt(), s.nextInt());
+            onceInicial[i] = new JugadorFutbol(s.next(), s.next(), s.nextInt(), s.nextInt());
             asignarNivelEquipo(onceInicial[i]);
         }
         System.out.println("¿Quieres agregar gente al banquillo?");
-        if (s.next().equalsIgnoreCase("si")){
+        if (s.next().equalsIgnoreCase("si")) {
             do {
-                banquillo.add(new Jugador(s.next(), s.next(), s.nextInt(), s.nextInt()));
+                banquillo.add(new JugadorFutbol(s.next(), s.next(), s.nextInt(), s.nextInt()));
                 System.out.println("Para salir introduce un número negativo, para seguir añadiendo introduce cualquier otro número");
-            }while (s.nextInt()>-1);
+            } while (s.nextInt() > -1);
         }
-    } //Método para asignar once inicial y jugadores de banquillo, además de asignar el nivel del equipo
+    }
 
-    private int asignarNivelEquipo(Jugador jugador){
-       if (jugador.getPosicion().equalsIgnoreCase("delantero")) return this.nivelAtaque+= jugador.getCalidad();
-       else if (jugador.getPosicion().equalsIgnoreCase("central")) return this.nivelCentro+= jugador.getCalidad();
-       else return this.nivelDefensa+= jugador.getCalidad();
+    public int asignarNivelEquipo(JugadorFutbol jugadorFutbol) {
+        if (jugadorFutbol.getPosicion().equalsIgnoreCase("delantero"))
+            return this.nivelAtaque += jugadorFutbol.getCalidad();
+        else if (jugadorFutbol.getPosicion().equalsIgnoreCase("centrocampista"))
+            return this.nivelCentro += jugadorFutbol.getCalidad();
+        else return this.nivelDefensa += jugadorFutbol.getCalidad();
     }
 
     public void listarOnceInicial() {
-        Arrays.sort(onceInicial, Comparator.comparing(Jugador::getPosicion ));
+        Arrays.sort(onceInicial, Comparator.comparing(JugadorFutbol::getPosicion));
         for (int i = 0; i < onceInicial.length; i++) {
             onceInicial[i].mostrarDatos();
         }
-    } //Método para listar jugadores
-    public void listarBanquillo(){
-        for (Jugador imp:banquillo) {
+    }
+
+    public void listarBanquillo() {
+        for (JugadorFutbol imp : banquillo) {
             imp.mostrarDatos();
         }
     }
 
-    public int sumaPuntos(int punt){
-       return puntos+=punt;
-    } //Método para sumar puntos
-
+    public int sumaPuntos(int punt) {
+        return puntos += punt;
+    }
 
     public boolean atacar() {
-        return ((int) (nivelAtaque * Math.random() * 2) + (nivelCentro * (int) (Math.random() * 2) / 2)) > 90;
+        return (nivelAtaque * (int) (Math.random() * 2) + (nivelCentro * (int) (Math.random() * 2) / 2)) > 200;
     }
-    public void marcaGol(){
+
+    public void marcaGol() {
         goles++;
     }
 
@@ -134,19 +137,19 @@ public class EquipoFutbol {
         this.puntos = puntos;
     }
 
-    public ArrayList<Jugador> getBanquillo() {
+    public ArrayList<JugadorFutbol> getBanquillo() {
         return banquillo;
     }
 
-    public void setBanquillo(ArrayList<Jugador> banquillo) {
+    public void setBanquillo(ArrayList<JugadorFutbol> banquillo) {
         this.banquillo = banquillo;
     }
 
-    public Jugador[] getOnceInicial() {
+    public JugadorFutbol[] getOnceInicial() {
         return onceInicial;
     }
 
-    public void setOnceInicial(Jugador[] onceInicial) {
+    public void setOnceInicial(JugadorFutbol[] onceInicial) {
         this.onceInicial = onceInicial;
     }
 }
