@@ -1,4 +1,4 @@
-package Controller;
+package controllerTrabajadores;
 import model.*;
 
 import java.util.ArrayList;

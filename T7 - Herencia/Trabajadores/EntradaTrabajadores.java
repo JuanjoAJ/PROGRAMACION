@@ -1,4 +1,4 @@
-import Controller.Empresa;
+import controllerTrabajadores.Empresa;
 
 import java.util.Scanner;
 

@@ -39,6 +39,10 @@
       <sourceFolder url="file://$MODULE_DIR$/T7 - Herencia/ListaMultimedia" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T7 - Herencia/Trabajadores" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T7 - Herencia/LlamadaHerencia" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T7 - Herencia/Inventario" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/Biblioteca" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/Inventario" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -94,5 +98,15 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="lombok" level="project" />
   </component>
 </module>

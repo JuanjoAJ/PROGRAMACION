@@ -1,4 +1,4 @@
-import Controller.Coleccion;
+import controllerMulti.Coleccion;
 import java.util.Scanner;
 
 public class EntradaAplicacionMultimedia {
