@@ -16,7 +16,6 @@ public class Socio extends Persona{
 
     public Socio(String nombre, String apellidos, String dni) {
         super(nombre, apellidos, dni);
-        this.numSocio=numSocio;
         prestamo= new ArrayList<>();
         numSocio=(int) (Math.random()*9999)+1;
     }

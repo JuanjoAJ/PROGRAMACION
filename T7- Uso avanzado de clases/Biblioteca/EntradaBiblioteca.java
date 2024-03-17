@@ -1,8 +1,6 @@
 import controllerBiblioteca.Biblioteca;
-import modelBiblioTema7.Socio;
-import modelBiblioTema7.Trabajador;
+import modelBiblioTema7.*;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class EntradaBiblioteca {
@@ -29,35 +27,15 @@ public class EntradaBiblioteca {
                     biblioteca.registrarUsuario(new Socio(scanner.next(), scanner.next(), scanner.next()));
                     break;
                 case 2:
-                    System.out.println("""
-                            ¿Qué elemento desea dar de alta?
-                            1. CD 
-                            2. DVD
-                            3. Revista
-                            4. Libro""");
-                    switch (scanner.nextInt()){
-                        case 1:
-
-                            break;
-                        case 2:
-
-                            break;
-                        case 3:
-
-                            break;
-                        case 4:
-
-                            break;
-                        default:
-                            System.out.println("No disponemos de esa opción");
-                            break;
-                    }
+                    biblioteca.darAltaElemento();
                     break;
                 case 3:
-
+                    System.out.println("Introduce DNI de socio e Id del elemento");
+                    biblioteca.realizarPrestamo(biblioteca.existeSocio(scanner.next()), biblioteca.existeElemento(scanner.nextInt()));
                     break;
                 case 4:
-
+                    System.out.println("Introduce DNI de socio e Id del elemento");
+                    biblioteca.realizarDevolucion(biblioteca.existeSocio(scanner.next()), biblioteca.existeElemento(scanner.nextInt()));
                     break;
                 case 5:
                     System.out.println("Introduzca DNI del socio");
