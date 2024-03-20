@@ -43,6 +43,10 @@
       <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/Biblioteca" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/Inventario" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/Excepciones" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/ExcepcionesMult" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/Genericos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/ExcepcionesScorm" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
