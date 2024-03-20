@@ -14,7 +14,7 @@ public class dniPrueba {
             DNI dni = new DNI(scanner.next());
             System.out.println("Registro correcto");
         } catch (DNI.ErrorValidacionDNI e) {
-            System.out.println("Error en el registro" + e.getMessage());
+            System.out.println("Error en el registro. " + e.getMessage());
         } finally {
             System.out.println("\nGracias por usar nuestros servicios");
         }

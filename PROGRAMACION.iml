@@ -47,6 +47,9 @@
       <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/ExcepcionesMult" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/Genericos" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/ExcepcionesScorm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ejercicios Evaluables/PrimerTrimestre" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ejercicios Evaluables/SegundoTrimestre" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ejercicios Evaluables/SegundoTrimestre/COMPETICIÓN" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

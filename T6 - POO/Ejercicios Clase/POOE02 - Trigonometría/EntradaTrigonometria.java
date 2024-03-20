@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import model.*;
-public class Entrada {
+public class EntradaTrigonometria {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Triangulo triangulo;
