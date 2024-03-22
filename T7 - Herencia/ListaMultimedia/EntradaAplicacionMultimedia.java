@@ -26,7 +26,7 @@ public class EntradaAplicacionMultimedia {
                 break;
             case 3:
                 System.out.println("Elija una de las opciones: \n 1) Listar video \n 2) Listar audio \n 3) Listar todos los elementos");
-                coleccion.menuListado();
+                coleccion.menuListado(sc.nextByte());
                 break;
             case 4:
                 System.out.println("Indique el nombre del autor");

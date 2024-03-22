@@ -20,6 +20,5 @@ public class Main {
             System.out.println("Error del tipo: " + e.getClass().getName());
         }
 
-
     }
 }

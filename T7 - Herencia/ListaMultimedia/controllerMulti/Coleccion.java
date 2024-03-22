@@ -105,8 +105,8 @@ public class Coleccion {
 
     //Listar
 
-    public void menuListado() {
-        switch (sc.nextInt()) {
+    public void menuListado(int num) {
+        switch (num) {
             case 1:
                 listarAudio();
                 break;

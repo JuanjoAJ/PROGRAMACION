@@ -17,19 +17,23 @@ public class Persona {
     }
 
     public void validarDatos() throws EdadInvalidaException, NombreInvalidoException{
-
-     //TODO
+       if(edad<0) throw new EdadInvalidaException("La edad no puede ser negativa");
+       if (nombre==null) throw new NombreInvalidoException("El nombre no puede estar vacio"); //valorar ver si hay espacios en blanco
+       System.out.println("Datos validados");
     }
-}
 
-class EdadInvalidaException extends Exception{
+
+public class EdadInvalidaException extends Exception{
     public EdadInvalidaException(String m){
         super(m);
     }
 
 }
-class NombreInvalidoException extends Exception{
+public class NombreInvalidoException extends Exception{
     public NombreInvalidoException(String message) {
         super(message);
     }
+}
+
+
 }
