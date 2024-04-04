@@ -50,6 +50,11 @@
       <sourceFolder url="file://$MODULE_DIR$/Ejercicios Evaluables/PrimerTrimestre" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Ejercicios Evaluables/SegundoTrimestre" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Ejercicios Evaluables/SegundoTrimestre/COMPETICIÓN" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/GenericosAlmacen" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/GenericosComparable" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/PartidoAnidada" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/CasaAnidada" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/TiendaAnidada" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
