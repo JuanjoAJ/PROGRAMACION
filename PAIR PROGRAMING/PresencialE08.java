@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /*Crea una función con la siguiente cabecera:
 public String convierteEnPalabras(int n)
-Esta función convierte los dígitos del número n en las correspondientes palabras y lo devuelve todo en una
+Esta función convierte los dígitos del número n en las correspondientes palabras y lo devuelve entero en una
 cadena de caracteres*/
 public class PresencialE08 {
     public static void main(String[] args) {

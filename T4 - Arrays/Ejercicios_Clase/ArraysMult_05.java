@@ -10,7 +10,7 @@ segundo al tercero, ..., y el último al primero).
 - Invertir el array
 - Mostrar la posición del primer par y del último impar.
 
-*hay que hacer todo de golpe, pero opcionalmente se puede hacer un menú que indique cada una de las opciones**
+*hay que hacer to-do de golpe, pero opcionalmente se puede hacer un menú que indique cada una de las opciones**
 */
 
 import java.util.*;

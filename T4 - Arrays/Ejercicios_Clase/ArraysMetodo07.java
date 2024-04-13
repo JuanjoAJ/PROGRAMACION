@@ -56,6 +56,6 @@ public class ArraysMetodo07 {
         /*if(palabnaAle.equalIgnore)*/
 
 
-        //TODO
+
     }
 }

@@ -55,6 +55,9 @@
       <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/PartidoAnidada" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/CasaAnidada" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T7- Uso avanzado de clases/TiendaAnidada" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T8 - Ficheros" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T8 - Ficheros/DatosBásicos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T8 - Ficheros/LecturaBásica" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

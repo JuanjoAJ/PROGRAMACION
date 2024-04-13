@@ -44,9 +44,19 @@ Random random;
         }else throw new TiendaException("Esa posición no existe");
     }
 
-    public void repararBicicleta(Bicicleta bicicleta){
-        //TODO
+    public void repararBicicleta(Bicicleta bicicleta, int pulgadas, int velocidad){
+        try {
+            if (almacen.getPlazasDisponibles() < 0) throw new TiendaException("No hay hueco en el almacen");
+            bicicletasReparar.add(bicicleta);
+            almacen.setPlazasDisponibles(almacen.getPlazasDisponibles()-1);
+            bicicleta.setEstado(false);
+            caja+=(int) bicicleta.reparar(bicicleta, velocidad,  pulgadas);
 
+        }catch (TiendaException e){
+            System.err.println(e.getMessage());;
+        }catch (Exception e){
+            System.err.println("Error en la reparación");
+        }
     }
 
     public void listarStock(){
