@@ -58,6 +58,10 @@
       <sourceFolder url="file://$MODULE_DIR$/T8 - Ficheros" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T8 - Ficheros/DatosBásicos" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T8 - Ficheros/LecturaBásica" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T8 - Ficheros/LecturaBasica" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T8 - Ficheros/ASCIIFichero" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T8 - Ficheros/JuegoAdivinar" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T8 - Ficheros/CifradoDescifrado" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
