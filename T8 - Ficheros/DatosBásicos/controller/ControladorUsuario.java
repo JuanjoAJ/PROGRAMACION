@@ -15,6 +15,7 @@ public class ControladorUsuario {
     }
 
     public ControladorUsuario() {
+        usuarios=new ArrayList<>();
     }
 
 
