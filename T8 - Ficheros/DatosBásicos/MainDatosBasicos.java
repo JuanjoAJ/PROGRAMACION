@@ -16,6 +16,7 @@ public class MainDatosBasicos {
 
                 usuarios.addUsuario(scanner.next(), scanner.next(), scanner.next(), scanner.next(), scanner.nextInt());
                 System.out.println("¿Desea crear a otro usuario?");
+                scanner=new Scanner(System.in);
                 if (!scanner.next().equalsIgnoreCase("si")) salir = true;
             }catch (IllegalArgumentException e){
                 System.err.println("Introducción ilegal de datos");

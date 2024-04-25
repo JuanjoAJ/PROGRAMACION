@@ -1,3 +1,0 @@
-(prueba,6)
-(eli,2)
-(pedro,4)
