@@ -5,21 +5,19 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
 @Setter
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Alumno {
+public class ProfesorDB {
     private int id;
-    private String nombre, apellido, correo;
-    private int telefono;
+    private String nombre, correo;
 
+    private Double sueldo;
 
-    public Alumno(String nombre, String apellido, String correo, int telefono) {
+    public ProfesorDB(String nombre, String correo, Double sueldo) {
         this.nombre = nombre;
-        this.apellido = apellido;
         this.correo = correo;
-        this.telefono = telefono;
+        this.sueldo = sueldo;
     }
-
 }
