@@ -12,7 +12,6 @@ public class DBConnection {
     private static void createConnection(){
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-
             String uri="jdbc:mysql://127.0.0.1:3306/curso_ue";
             connection= DriverManager.getConnection(uri, "root", "");
 

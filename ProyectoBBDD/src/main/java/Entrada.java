@@ -87,14 +87,25 @@ public class Entrada {
                             profesorRepository.insertarProfesor(new ProfesorDB(nombre, correo, sueldo));
                             break;
                         case 2:
-                            //Actualizar
+                            System.out.println("Introduce el identificador del profesor y todos los datos del profesor(ya actualizados)");
+                            id= scanner.nextInt();
+                            System.out.println("Introduzca el nombre del profesor");
+                            scanner=new Scanner(System.in);
+                            nombre= scanner.nextLine();
+                            System.out.println("Introduzca el correo del profesor");
+                            correo= scanner.next();
+                            System.out.println("Introduzca el sueldo del profesor");
+                            sueldo= scanner.nextDouble();
+                            profesorRepository.actualizarProfesor(id, new ProfesorDB(nombre, correo, sueldo));
                             break;
                         case 3:
                             //Leer
                             break;
-
-
-
+                        case 4:
+                            System.out.println("Introduce el id del alumno a eliminar");
+                            id= scanner.nextInt();
+                            profesorRepository.borrarProfesor(id);
+                            break;
 
                     }
                 break;
@@ -105,6 +116,7 @@ public class Entrada {
 
         }catch (InputMismatchException | IllegalArgumentException e){
             System.out.println("Error en la introducción de datos");
+            System.out.println(e.getMessage());
         }
 
 

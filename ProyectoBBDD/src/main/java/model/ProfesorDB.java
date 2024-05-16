@@ -13,9 +13,9 @@ public class ProfesorDB {
     private int id;
     private String nombre, correo;
 
-    private Double sueldo;
+    private double sueldo;
 
-    public ProfesorDB(String nombre, String correo, Double sueldo) {
+    public ProfesorDB(String nombre, String correo, double sueldo) {
         this.nombre = nombre;
         this.correo = correo;
         this.sueldo = sueldo;
