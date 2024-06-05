@@ -1,7 +1,7 @@
 # PROGRAMACION
 ### Primer Año DAW - Ejercicios de programación
 
-![](".\javaimg.jpg")
+![](.\javaimg.jpg)
 Este repositorio está dedicado al primer año de programación en DAW, es un repositorio con ejercicios resueltos que he ido haciendo durante todo el año en la UEM.
 
 Se divide en los siguientes bloques:
