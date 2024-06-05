@@ -45,7 +45,7 @@ public class Coleccion {
         id = sc.nextInt();
         if (existeMultimedia(id) == null) {
             System.out.println("Introduce titulo, tamaño(nº), formato, nombre de autor, dni de autor, ISBN y el número de páginas");
-            multimedia.add(new Libro(id, sc.next(), sc.nextInt(), sc.next(), new Persona(sc.next(), sc.next()), sc.nextInt(), sc.nextInt()));
+            multimedia.add(new LibroHerencia(id, sc.next(), sc.nextInt(), sc.next(), new Persona(sc.next(), sc.next()), sc.nextInt(), sc.nextInt()));
             System.out.println("Libro añadido");
         } else {
             System.out.println("Ese ID ya está en uso");
@@ -146,7 +146,7 @@ public class Coleccion {
         listarAudio();
         System.out.println("\u001B[4mLIBROS:\u001B[0m");
         for (int i = 0; i < multimedia.size(); i++) {
-            if (multimedia.get(i) instanceof Libro) {
+            if (multimedia.get(i) instanceof LibroHerencia) {
                 multimedia.get(i).mostrarDatos();
             }
         }
@@ -159,7 +159,7 @@ public class Coleccion {
             System.out.println("No tenemos registros de ese autor");
         } else {
             for (ElementoMultimedia item : multimedia) {
-                if (item instanceof Libro && item.getAutor().getNombre().equalsIgnoreCase(nombre)) {
+                if (item instanceof LibroHerencia && item.getAutor().getNombre().equalsIgnoreCase(nombre)) {
                     System.out.println("Título del libro: " + item.getTitulo());
                 }
             }
